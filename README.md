@@ -53,16 +53,7 @@ See the [design notes](docs/design-notes.md) for the purpose of each main block 
 | [docs/design-notes.md](docs/design-notes.md) | Hardware architecture and design scope |
 | [docs/validation.md](docs/validation.md) | Implementation and measurement status |
 
-## Open the design
-
-1. Download or clone the complete repository.
-2. Install KiCad 10.0 with its standard symbol and footprint libraries. Standard 3D models are needed for a complete 3D view.
-3. Open `hardware/kicad/logic_analyzer_rp2040.kicad_pro` in the KiCad project manager.
-4. Open the schematic editor or PCB editor from the project manager.
-
 The USB-C definition used by the saved design is included under a project-local `0my_project` library. Library paths use `${KIPRJMOD}` so they resolve relative to the project folder.
-
-This snapshot is provided for design review. It is not a verified manufacturing release. See [hardware notes](hardware/README.md) before generating fabrication files.
 
 ## Next milestones
 
@@ -71,11 +62,5 @@ This snapshot is provided for design review. It is not a verified manufacturing 
 - Publish revision-matched manufacturing files and a bill of materials.
 - Assemble the board and record power, USB, and input-channel tests.
 - Add capture firmware, host software, and reproducible performance measurements.
-
-## References
-
-- [Raspberry Pi RP2040 product information and documentation](https://www.raspberrypi.com/products/rp2040/)
-- [Texas Instruments SN74LVC8T245 product information and datasheet](https://www.ti.com/product/SN74LVC8T245)
-- [KiCad documentation](https://docs.kicad.org/)
 
 Component documentation describes the individual devices; it does not establish the measured performance of this board.
