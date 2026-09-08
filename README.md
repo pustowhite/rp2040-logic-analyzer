@@ -2,6 +2,16 @@
 
 An eight-channel logic analyzer hardware project built around the Raspberry Pi RP2040, with a custom two-layer PCB, USB-C connectivity, and selectable 1.8 V / 3.3 V input logic modes.
 
+<p align="center">
+  <img src="logic_analyzer_rp2040"
+       alt="RP2040 logic analyzer PCB designed in KiCad"
+       width="800">
+</p>
+
+<p align="center">
+  <em>Two-layer RP2040 logic analyzer PCB designed in KiCad.</em>
+</p>
+
 I developed this project to gain practical experience in circuit design and PCB layout, from the input interface and power supplies to the microcontroller support circuitry. It is part of my electronics engineering portfolio.
 
 > **Project status:** Schematic and PCB layout are available. The source files in this repository come from the project archive shared on September 2, 2026; later design changes may not be included. Firmware, assembled-board testing, and measured capture performance are not documented in this snapshot.
