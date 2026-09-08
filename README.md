@@ -26,7 +26,7 @@ I developed this project to gain practical experience in circuit design and PCB 
 
 The voltage modes describe the intended logic families. Input thresholds, maximum reliable signal frequency, and protection performance still require verification on the assembled board.
 
-## How it is intended to work
+## How it work
 
 Eight external digital signals enter through the input header. The input network and SN74LVC8T245 interface these signals to the RP2040's 3.3 V domain. USB-C supplies power and provides the physical connection to the host computer.
 
