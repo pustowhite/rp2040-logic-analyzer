@@ -6,8 +6,6 @@ An eight-channel logic analyzer hardware project built around the Raspberry Pi R
 
 I developed this project to gain practical experience in circuit design and PCB layout, from the input interface and power supplies to the microcontroller support circuitry. It is part of my electronics engineering portfolio.
 
-> **Project status:** Schematic and PCB layout are available. The source files in this repository come from the project archive shared on September 2, 2026; later design changes may not be included. Firmware, assembled-board testing, and measured capture performance are not documented in this snapshot.
-
 ## Hardware overview
 
 | Item | Design |
