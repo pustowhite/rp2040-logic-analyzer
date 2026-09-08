@@ -42,25 +42,4 @@ The project brings together several parts of a complete PCB design:
 - Component placement, signal routing, and ground copper on a two-layer board.
 - Integration of a custom connector symbol and footprint into a portable KiCad project.
 
-See the [design notes](docs/design-notes.md) for the purpose of each main block and the [validation record](docs/validation.md) for the current evidence and planned checks.
-
-## Repository contents
-
-| Path | Contents |
-| --- | --- |
-| [hardware/kicad/](hardware/kicad/) | Editable schematic, PCB layout, project settings, and local libraries |
-| [hardware/README.md](hardware/README.md) | Opening the project, dependencies, and source provenance |
-| [docs/design-notes.md](docs/design-notes.md) | Hardware architecture and design scope |
-| [docs/validation.md](docs/validation.md) | Implementation and measurement status |
-
-The USB-C definition used by the saved design is included under a project-local `0my_project` library. Library paths use `${KIPRJMOD}` so they resolve relative to the project folder.
-
-## Next milestones
-
-- Incorporate the latest design revision and publish matching schematic and PCB previews.
-- Document electrical rule checking (ERC) and design rule checking (DRC) results.
-- Publish revision-matched manufacturing files and a bill of materials.
-- Assemble the board and record power, USB, and input-channel tests.
-- Add capture firmware, host software, and reproducible performance measurements.
-
 Component documentation describes the individual devices; it does not establish the measured performance of this board.
